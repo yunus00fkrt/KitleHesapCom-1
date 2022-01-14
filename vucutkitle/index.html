@@ -70,17 +70,16 @@
                             <br>
                             <button type="button" class="btn ml-2" style="background-color: steelblue; " onclick="hesapla()"><a href="#youtube" style="text-decoration: none; color: white;">Hesapla</a></button>
                             <button type="reset" class="btn btn-light border border-dark ml-2"
-                                style="border-color: steelblue;">Temizle</button>
+                                style="border-color: steelblue;" onclick="clear()">Temizle</button>
                         </div>
                     </form>
                 </div>
-                <div style=" width: 470px; height: 750px; align-items:flex-start; float: left;">
-                    
-                    <iframe id="youtube" width="448" height="315" src="" 
+                <div class="bgcolor-primary text-center pt-3 mb-3 text-light" id="hesaplandiTrue" style="display: none; background-color: seagreen;"><p>HESAPLANDI!</p></div>
+                <div style="align-items:flex-start;" class="col-md-12 float-left">
+                    <iframe id="youtube" height="315px" width="100%" src="" 
                     title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
-
                     </iframe>
                 </div>
             </div>
